@@ -27,3 +27,9 @@ about the current recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+The invariant for the Fibonacci sequence is that the previous two numbers inside the Fibonacci sequence can be added to make the next number inside the sequence. This must always be true at the start of the recursive call to get out the next number of Fibonacci sequences to your desired size. This is because the Fibonacci sequence is based on adding the previous two elements to get the next number in the sequence.  And so, to get any element inside the Fibonacci sequence, you must have the two preceding elements.
+
+For this assignment, I was able to do it entirely on my own with help on syntax from https://www.w3schools.com/js/js_arrays.asp.
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
