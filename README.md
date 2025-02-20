@@ -28,7 +28,7 @@ Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
 
-The invariant for the Fibonacci sequence is that the first two elements of the array must be 0 and 1. This must always be true at the start of the recursive call to get out whatever size of Fibonacci sequence you desire. This is because the Fibonacci sequence is based on adding the last two elements in the sequence to get the next number in the sequence.  And so, to get any element inside the Fibonacci sequence, you must have the two preceding elements, meaning that the absolute minimum amount of information you need to produce any element inside the Fibonacci sequence is the first two elements, 0 and 1. Then, you can build your way up to any size of the Fibonacci sequence you desire.
+The invariant for the Fibonacci sequence is that the previous two numbers inside the Fibonacci sequence can be added to make the next number inside the sequence. This must always be true at the start of the recursive call to get out the next number of Fibonacci sequences to your desired size. This is because the Fibonacci sequence is based on adding the previous two elements to get the next number in the sequence.  And so, to get any element inside the Fibonacci sequence, you must have the two preceding elements.
 
 For this assignment, I was able to do it entirely on my own with help on syntax from https://www.w3schools.com/js/js_arrays.asp.
 
